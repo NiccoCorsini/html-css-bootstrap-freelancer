@@ -94,10 +94,10 @@ header a:not(:last-child){
 }
 
 /* layout */
-.about .contents,
+/* .about .contents,
 .contact-form .contents{
     padding: 0 60px;
-}
+} */
 
 
 
