@@ -1,0 +1,103 @@
+/* GENERAL */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* colors */
+body{
+    color: white;
+}
+
+header,
+footer{
+    background-color: #2c3e50;
+}
+
+.hero,
+.about{
+    background-color: #23bc9c;
+}
+
+.portfolio,
+.contact-form{
+    color: #2c3e50;
+}
+
+.contacts{
+    background-color: #3a546d;
+}
+
+/* icons decoration */
+header a.burger{
+    display: inline-block;
+    line-height: 1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.star{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star i{
+    margin: 0 15px;
+}
+
+.star::before,
+.star::after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-color: currentColor;
+    height: 2px;
+    width: 45px;
+}
+
+/* fonts */
+h1,
+h2,
+h3,
+h4{
+    text-transform: uppercase;
+}
+
+header{
+    line-height: 80px;
+}
+
+header h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header a{
+    text-transform: uppercase;
+}
+
+header a:not(:last-child){
+    margin-right: 15px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form button{
+    display: block;
+}
+
+/* layout */
+.about .contents,
+.contact-form .contents{
+    padding: 0 60px;
+}
+
+
+
