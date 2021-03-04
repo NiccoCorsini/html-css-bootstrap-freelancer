@@ -1,5 +1,10 @@
 /* GENERAL */
 /* colors & style */
+html{
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: white;
