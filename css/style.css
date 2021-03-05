@@ -363,7 +363,6 @@ header .bl-navbar button.bl-navbar-toggle:active{
     }
 
     header .bl-navbar .bl-navbar-nav > li > a::after{
-        z-index: 99;
         transition: transform 300ms ease;
         content: '';
         display: block;
