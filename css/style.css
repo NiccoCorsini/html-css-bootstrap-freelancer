@@ -292,19 +292,8 @@ header .bl-navbar button.bl-navbar-toggle:hover{
 }
 
 .portfolio .img-container .layover:hover i{
-    /* animation: floating 600ms 300ms infinite alternate ease; */
     transform: translate(-50%, -50%);
 }
-
-/* @keyframes floating{
-    from{
-        transform: translate(-50%, -60%);
-    }
-
-    to{
-        transform: translate(-50%, -40%);
-    }
-} */
 
 .img-container:hover .layover{
     opacity: 1;
