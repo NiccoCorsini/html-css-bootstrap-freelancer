@@ -215,12 +215,12 @@ header .bl-navbar .bl-navbar-toggle .bl-icon-bar{
 
 .portfolio .img-container .layover i{
     position: absolute;
-    top: 50%;
+    top: 120%;
     left: 50%;
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 6rem;
-    transition: transform 300ms;
+    transition: top 300ms;
 }
 
 /* ABOUT */
@@ -304,8 +304,18 @@ header .bl-navbar button.bl-navbar-toggle:active{
 }
 
 .portfolio .img-container .layover:hover i{
-    transform: translate(-50%, -50%);
+    top: 50%;
+    animation: float 300ms 300ms infinite alternate;
 }
+
+@keyframes float {
+    from {
+      transform: translate(-50%, -50%);
+    }
+    to {
+      transform: translate(-50%, -35%);
+    }
+  }
 
 .img-container:hover .layover{
     opacity: 1;
